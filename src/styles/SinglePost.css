@@ -12,7 +12,9 @@
   .singlePostDesc::first-letter {
     font-size: 25px; /* Adjust dropcap font size for smaller screens */
   }
-} */
+} 
+
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;

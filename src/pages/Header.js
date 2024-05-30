@@ -30,11 +30,7 @@ const Header = ({ options }) => {
 
   return (
     <div className="header">
-      {/* <img
-        className="headerImg"
-        src="https://alaisae.com/data1/images/slide1.jpg"
-        alt=""
-      /> */}
+
       <div>
         {options.map((option, index) => (
           <div key={index} style={{ display: index === currentOptionIndex ? 'block' : 'none' }}>

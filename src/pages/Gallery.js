@@ -1,4 +1,4 @@
-// src/Gallery.js
+
 
 import React, { useState } from 'react';
 import '../styles/Gallery.css';

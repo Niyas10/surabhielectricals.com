@@ -1,5 +1,4 @@
-// import { Link } from "react-router-dom";
-//  import "../styles/Navbar.css";
+
 import { Link } from "react-router-dom";
 import imgLog from "../assets/images/logo.png";
 import { FaFacebook   } from "react-icons/fa6";
@@ -18,9 +17,7 @@ export default function Navbar() {
           <li className="topListItem">
           <Link className="link" to="/home">
           HOME
-            </Link>   {/* <Link className="link" to="/"> */}
-              
-            {/* </Link> */}
+            </Link>  
           </li>
           <li className="topListItem">    
           <Link className="link" to="/about">
@@ -41,9 +38,7 @@ export default function Navbar() {
           <li className="topListItem">GALLERY</li>
           <li className="topListItem">CAREER</li>
           <li className="topListItem">
-            {/* <Link className="link" to="/write">
-              WRITE
-            </Link> */}
+    
           </li>
        
         </ul>

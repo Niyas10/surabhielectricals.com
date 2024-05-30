@@ -3,9 +3,7 @@ import React from "react";
 import "react-slideshow-image/dist/styles.css";
 
 import "../styles/Navbar.css";
-import imgLog from "../assets/images/logo.png";
-import { FaFacebook } from "react-icons/fa6";
-import { FaTwitter, FaInstagramSquare } from "react-icons/fa";
+
 import "../styles/About.css";
 import Topbar from "./Topbar";
 import image from "../assets/images/aboutImg.jpg";

@@ -3,11 +3,9 @@ import "../styles/Posts.css";
 import React from 'react'
 import Footer from "./Footer";
 import Meenangadi from '../assets/images/Meenangadi.jpg'
-import hardware from '../assets/images/Hardwares.jpg'
 import kambalakkad from '../assets/images/kambalakkad1.jpg'
 import Pulpally from '../assets/images/Capital_Pulpally.png'
 import Meenangadi_Capital from '../assets/images/Meenangadi_Capital.jpg'
-import what  from '../assets/images/what.jpg'
 
 export default function ContactsPosts() {
 
@@ -65,37 +63,7 @@ export default function ContactsPosts() {
       </div>
       <div >
        
-        {/* <form id="contact-form" method="POST">
-         
-        
-          <form className="rightSide" > */}
-      {/* Render form fields and labels using JSX */}
-    
-      {/* <input className="inputConatiner"   placeholder="Name" type="text" name="name"  />
-     
-      <input className="inputConatiner"   placeholder="Location" type="text" name="name"  />
-     
-      <input  className="inputConatiner"  placeholder="Email" type="text" name="name"  />
-     
-      <input  className="inputConatiner"  placeholder="Phone" type="text" name="name"  />
-     
-        <textarea
-    
-          placeholder="Enter message..."
-          name="message"
-          required
-        ></textarea>
-     
-      <button type="submit">Submit</button>
-    </form> */}
-        
-        
-        
-        
-        
-        
-        
-          {/* </form> */}
+      
 
       </div>
 

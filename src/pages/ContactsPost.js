@@ -1,10 +1,10 @@
-// import { Link } from "react-router-dom";
+
 import "../styles/Post.css";
 import React from 'react'
  import { useNavigate } from 'react-router-dom';
 export default function ContactsPost(props) {
-  const history = useNavigate(); // Initialize useHistory hook
-
+  const history = useNavigate(); 
+  
   // Define click event handler
   const handleClick = () => {
     if(props.id==1)
