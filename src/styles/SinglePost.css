@@ -1,0 +1,117 @@
+/* 
+.singlePost {
+  width: 100%;
+  padding-top: 15%;
+  text-align: center;
+  background-color: #bbd7eb;
+  align-items: center;
+}
+
+.singlePostTitle {
+  color: #be9656;
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.singlePostEdit {
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #be9656;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.singlePostAuthor {
+  margin-left: 5px;
+}
+
+.singlePostDesc {
+  padding-bottom: 50%;
+}
+
+.singlePostDesc::first-letter {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .singlePostTitle {
+   
+
+  font-size: 3rem;
+  color: #0096d6;
+
+    }
+  
+  .singlePostDesc::first-letter {
+    font-size: 25px; /* Adjust dropcap font size for smaller screens */
+  }
+} */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.singlePost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
+header {
+  background: linear-gradient(to bottom, #80b3d8, #bcd7eb, #e9f2f8, #ebf4f9, #ffffff);
+  width: 100%;
+  padding: 20px 0;
+}
+
+.singlePostTitle {
+  padding-top: 15%;
+
+
+  font-size: 3rem;
+  color: #0096d6;
+}
+
+.singlePostDesc {
+  padding-bottom: 15%;
+  font-size: 1.2em;
+  margin: 0 auto;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .singlePostTitle {
+    font-size: 2em;
+  }
+
+  .singlePostDesc {
+    font-size: 1em;
+  }
+}

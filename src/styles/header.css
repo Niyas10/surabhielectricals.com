@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+}
+.headerImg {
+  width: 100%;
+  height: 80%;
+  position: "absolute";
+}
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+}
+
+.headerTitleSm {
+  position: absolute;
+  display: flex;
+  font-size: 20px;
+}
+
+.auto-sliders {
+  justify-self: "left";
+  align-items: "left";
+  left: 0%;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: left;
+  justify-items: left;
+  text-align: left;
+  align-items: left;
+}
+.header .vedioS {
+  width: 100%;
+  height: 80%;
+
+  position: "absolute";
+}
+
+@media (max-width: 768px) {
+  .header .vedioS {
+    width: 100%;
+    position: "absolute";
+   
+  }
+  .header .radio_Text {
+    margin-top: -220px;
+    position: "absolute";
+    font-size: 40px;
+    color: #c1811a;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .radio_button {
+    /* margin-right: 10px;
+    */
+    margin-right: 40px;
+    color: #ede6e6;
+  }
+}
+.sliders {
+  width: 100%;
+
+  object-fit: cover;
+}
+.radio_Text {
+  margin-top: -300px;
+  position: "absolute";
+  font-size: 70px;
+  color: #c1811a;
+  font-weight: bold;
+}
+.radio_button {
+  /* margin-right: 10px;
+    */
+  margin-right: 40px;
+  color: #ede6e6;
+}
+.radios {
+}

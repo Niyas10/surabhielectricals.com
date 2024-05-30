@@ -1,0 +1,110 @@
+/* Topbar.css */
+.topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #80b3d8;
+  transition: top 0.3s;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.topbar.hidden {
+  top: -100px; /* Adjust based on the height of your topbar */
+}
+
+.topLeft {
+  display: flex;
+  align-items: center;
+}
+
+.topbar .logos {
+  max-width: 230px;
+  max-height: 150px;
+  padding-left: 10px;
+}
+
+.topRights {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.topLists{
+  display: flex;
+
+  list-style: none;
+
+  margin: 0;
+}
+
+.topListItem {
+  display: flex;
+  font-size: 8%;
+  font-weight: 300;
+  cursor: pointer;
+
+}
+
+.topListItem:hover {
+  color: gray;
+}
+
+.links {
+padding-left: 18px;
+padding-right: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .topbar .logos {
+    max-width: 140px;
+    max-height: 150px;
+  }
+  .topListItem {
+    margin-right: 15px;
+    font-size: 16px;
+  }
+  .links {
+    padding-left: 8px;
+    padding-right: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+  .topbar .logo {
+    max-width: 100px;
+    max-height: 70px;
+  }
+
+  .topListItem {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .topList {
+    justify-content: center;
+  } .links {
+    padding-left: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .topLeft .logo {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .topListItem {
+    margin-right: 5px;
+    font-size: 12px;
+  }
+
+  .topList {
+    flex-direction: column;
+    align-items: center;
+  }
+}

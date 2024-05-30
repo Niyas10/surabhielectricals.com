@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.BrandsContainer {
+  background: linear-gradient(to bottom, #80b3d8, #bcd7eb, #e9f2f8, #ebf4f9, #ffffff);
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.BrandsHeader {
+  justify-content: center;
+  padding: 3% 0;
+  color: #666666;
+  text-align: center;
+  font-size: 2em;
+}
+
+.BrandsCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.BrandCard {
+  border: 1px solid #666666;
+  width: 160px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BrandImage {
+  width: 100%;
+  padding: 10px;
+  object-fit: contain;
+}
+
+@media (max-width: 480px) {
+  .BrandsCards {
+    justify-content: center;
+  }
+
+  .BrandCard {
+    width: 150px;
+  }
+
+  .BrandImage {
+    width: 100%;
+    height: auto;
+  }
+}

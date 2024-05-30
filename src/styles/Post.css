@@ -1,0 +1,135 @@
+.post {
+  width: 395px;
+  margin: 0px 25px 40px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactPost {
+  width: 305px;
+  height: auto;
+  margin: 0px 5px 30px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactPostImg,
+.postImg {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.postInfo,
+.contactPostTitle,
+.postTitle {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.postCat {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #be9656;
+  line-height: 19px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.postTitle,
+.contactPostTitle {
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 15px;
+  cursor: pointer;
+  color: #666666;
+}
+
+.postDate {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  color: #999999;
+  margin-top: 15px;
+}
+
+.postDesc,
+.contactPostDesc {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 20px;
+  color: #287896;
+  padding-left: 15%;
+  padding-right: 10%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+
+  .ContactPost {
+    width: 100%;
+
+    margin: 0px 0px 40px 0px;
+  }
+  .ContactPost .ContactPostImg {
+    width: 70%; /* Adjusted height for smaller screens */
+  }
+
+  .postDesc,
+  .contactPostDesc {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .contactPostTitle {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .post,
+  .ContactPost {
+    width: 100%;
+    margin: 0px 0px 20px 0px; /* Adjusted margin for smaller screens */
+  }
+
+  .ContactPost .ContactPostImg {
+    height: 80%; /* Adjusted height for smaller screens */
+  }
+
+  .postTitle,
+  .contactPostTitle {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+  }
+
+  .postDesc,
+  .contactPostDesc {
+    font-size: 12px; /* Adjusted font size for smaller screens */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .postDate {
+    font-size: 11px; /* Adjusted font size for smaller screens */
+  }
+
+  .postCat {
+    font-size: 10px; /* Adjusted font size for smaller screens */
+  }
+}

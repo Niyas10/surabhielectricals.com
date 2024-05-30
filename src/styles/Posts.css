@@ -1,0 +1,58 @@
+.posts {
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .inputConatiner {
+    margin: 1%;
+    width: 30%;
+  }
+  
+  .ContactPosts {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .zone {
+    background-color: #bbd7eb;
+    padding-bottom: 20px;
+    margin-top: 75px;
+  }
+  
+  .contactBg {
+    background-color: #bbd7eb;
+    padding-top: 8%;
+  }
+  
+  .zoneHead {
+    align-items: center;
+    justify-self: center;
+    padding-left: 45%;
+    padding-top: 75px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 768px) {
+    .inputConatiner {
+      width: 45%; /* Adjust width for smaller screens */
+    }
+   .zone .posts {
+      
+    width: 90%; 
+  
+    }
+    .zone {
+      background-color: #bbd7eb;
+
+    }
+    .zoneHead {
+    justify-content: "center"; 
+    }
+  }
+  
