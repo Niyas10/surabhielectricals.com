@@ -2,7 +2,7 @@
   width: 100%;
   height: 90vh;
   display: flex;
-  flex-wrap: wrap; /* Add this for wrapping on small screens */
+  flex-wrap: wrap;
 }
 
 .contact .leftSide {
@@ -16,7 +16,7 @@
 .contact .rightSide {
   height: 100%;
   flex: 50%;
-  margin: 5%; /* Adjusted for better responsiveness */
+  margin: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,8 +26,8 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: 700;
-  font-size: 40px; /* Adjusted for better responsiveness */
-  margin-left: 0; /* Adjusted for better responsiveness */
+  font-size: 40px; 
+  margin-left: 0;
 }
 
 form {
@@ -35,12 +35,12 @@ form {
   flex-direction: column;
   width: auto;
   height: auto;
-  padding: 20px; /* Adjusted for better responsiveness */
+  padding: 20px;
 }
 
 form input {
   height: 40px;
-  width: 100%; /* Adjusted for better responsiveness */
+  width: 100%;
   border: none;
   border-bottom: 1px solid #121619;
   color: black;
@@ -49,7 +49,7 @@ form input {
 form textarea {
   margin-top: 15px;
   height: 70px;
-  width: 100%; /* Adjusted for better responsiveness */
+  width: 100%; 
   border: none;
   border-bottom: 1px solid #121619;
   color: black;

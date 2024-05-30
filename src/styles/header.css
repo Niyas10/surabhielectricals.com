@@ -55,8 +55,7 @@
     margin-bottom: 10px;
   }
   .radio_button {
-    /* margin-right: 10px;
-    */
+ 
     margin-right: 40px;
     color: #ede6e6;
   }
@@ -74,10 +73,8 @@
   font-weight: bold;
 }
 .radio_button {
-  /* margin-right: 10px;
-    */
+  
   margin-right: 40px;
   color: #ede6e6;
 }
-.radios {
-}
+

@@ -1,5 +1,5 @@
-.auto-slider {
-  /* position: absolute;
+/* .auto-slider {
+   position: absolute;
   justify-self: center;
   align-items: center;
   left: 0;
@@ -11,8 +11,8 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  transform: translate(-10%, -130%); */
-}
+  transform: translate(-10%, -130%); 
+} */
 
 .bgImg_Container {
   width: 100%;
